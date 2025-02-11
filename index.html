@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/styles.css">
+   <link rel="stylesheet" href="./Styles/wickedcss.min.css">
+
+    <title>Budget APP</title>
+    <link rel="icon" href="./images/money.png" type="image/money">
+</head>
+
+<body class="background fadeIn">
+    <div class="budgetContainer">
+        <div class="budgetBox">
+
+            <h1 class="titleText bounceIn">The Budget App</h1>
+            <p class="titleText">Set your budget:</p>
+            <div class="budgetSection">
+                <input type="number" id="budgetInput" placeholder="Enter budget" />
+                <button id="budgetBtn">Set Budget</button>
+            </div>
+        </div>
+
+        <!-- ------------------------------------------------------------------>
+        <div class="expensesBox">
+            <h2 class="titleText">Expenses</h2>
+            <ul class="listOfExpenses" id="expenseList"></ul>
+            <p class="titleText">Add your Expenses:</p>
+            <div class="userInputSection">
+                <input type="text" id="expenseName" placeholder="Expense name" />
+                <input type="number" id="expenseAmount" placeholder="Amount" />
+                <button id="expenseBtn">Add Expense</button>
+            </div>
+        </div>
+
+        <!---------------------------------------------------------------------->
+        <br>
+        <div class="resultsBox">
+            <h3 class="totalText">Total Spent: $<span id="totalSpent">0</span></h3>
+            <h3 class="remainingText">Remaining: $<span id="remainingBudget">0</span></h3>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script type="module" src="./Scripts/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Gloria;
+  src: url(../font/Gloria/GloriaHallelujah-Regular.ttf);
+}
+
+
+.background {
+  background-color: rgb(8, 133, 79);
+}
+.budgetBox {
+  height: auto;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 10px 0px 10px 5px;
+  padding-bottom: 10px;
+}
+.expensesBox {
+  height: auto;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 10px 0px 10px 5px;
+}
+.titleText {
+  text-align: center;
+  font-family: Gloria;
+}
+.budgetSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+.userInputSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  padding-bottom: 10px;
+}
+.totalText {
+  text-align: center;
+  font-family: Gloria;
+}
+.remainingText {
+  text-align: center;
+  font-family: Gloria;
+}
+.resultsBox {
+  height: auto;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+input {
+  border-radius: 5px;
+}
+button {
+  background-color: rgb(8, 133, 79);
+  color: white;
+  border-radius: 4px;
+  font-family: Gloria;
+}
+button:hover {
+  background-color: #45a049;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  font-family: Gloria;
+}
+input::placeholder {
+  font-family: Gloria;
+}
+.profitImg{
+    height: 50px;
+    width: 50px;
+}
